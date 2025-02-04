@@ -1,0 +1,29 @@
+header{
+    background-color: rgba(60, 110, 143, 1.96);
+    border-bottom: 0;
+	height: 75px;
+
+	& .img-logo{
+		background-image: url(imagens/UEMG-Logo.png);
+		background-repeat: no-repeat;
+		
+		height: 40px;
+		width: 132px;
+		margin-top: 20px;
+		margin-left: 9px;
+	}
+
+	
+}
+
+ .title{
+	margin-left: 1000px;
+	font-size: 25px;
+	color: white;
+}
+
+& li{
+	margin-right: 7px;
+	display: flex;
+	align-items: center;
+}
