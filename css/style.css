@@ -17,6 +17,11 @@
 	
 } */
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 header{
  
     #navbarColor01{
@@ -34,6 +39,8 @@ header{
 
     & .container-fluid{
         padding: 0px 10px;
+        display: flex;
+        justify-content: space-between;
     }
 
     & #logo-navbar{
@@ -44,13 +51,20 @@ header{
 
 .nav-item{
 	padding: 10px;
-	width: 100%;
 	display: flex;
+    gap: 10px;
 
- & .button{
-	font-size: auto;
-	color: rgb(0, 0, 0);
- }
+     & input{
+        height: 30px;
+     }
+
+
+    & .button{
+        font-size: auto;
+        color: rgb(0, 0, 0);
+        padding: 0px 10px;
+        
+    }
 }
 
 /* main */
@@ -58,6 +72,10 @@ header{
     display: flex;
     flex-direction: column;
     min-height: 70vh; /* Garante que a altura mínima seja 100% da altura da janela */
+    background: url(../assets/logobackground.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
 }
 
 
@@ -94,7 +112,9 @@ footer .hr {
 }
 
 .footer-card {
-    max-width: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
 
     & i {
         margin-right: 4px;
