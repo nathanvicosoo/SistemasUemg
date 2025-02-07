@@ -44,10 +44,19 @@ header{
     }
 
     & #logo-navbar{
-        width: 132px;
-        height: 40px;
+        max-width: 100px;
+        display: flex;
     }
+
+    .icone{
+        width: 100%;
+        padding: 0px 10px;
+        color: white;
+        font-size: 1.40rem;
+     }
 }
+
+
 
 .nav-item{
 	padding: 10px;
@@ -72,9 +81,9 @@ header{
     display: flex;
     flex-direction: column;
     min-height: 70vh; /* Garante que a altura mínima seja 100% da altura da janela */
-    background: url(../assets/logobackground.png);
+    background: url(../assets/background.png);
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 400%;
     background-position: center;
 }
 
