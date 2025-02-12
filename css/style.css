@@ -75,6 +75,12 @@ header{
     
 }
 
+.card{
+    margin: 15px;
+    max-width: 300px;
+    max-height: 300px;
+    flex-direction: column;
+}
 
 /* main */
 .background {
