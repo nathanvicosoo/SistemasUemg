@@ -76,10 +76,13 @@ header{
 }
 
 .card{
-    margin: 15px;
-    max-width: 300px;
     max-height: 300px;
+    display: flex;
     flex-direction: column;
+    margin: 15px auto 15px auto;
+    text-align: center;
+    justify-content: center;
+
 }
 
 /* main */
